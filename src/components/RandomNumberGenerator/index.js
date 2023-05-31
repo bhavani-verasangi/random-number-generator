@@ -17,7 +17,7 @@ class RandomNumberGenerator extends Component {
       <div className="bg-container">
         <div className="card-container">
           <h1 className="heading">Random Number</h1>
-          <p>Generate a random number in the range of 0 to 100</p>
+          <p className="description">Generate a random number in the range of 0 to 100</p>
           <button type="button" className="button" onClick={this.onClickButton}>
             Generate
           </button>
